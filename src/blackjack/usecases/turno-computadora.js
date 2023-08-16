@@ -20,5 +20,5 @@ export const turnoComputadora = (puntosMinimos, deck, puntosJugadores) => {
         } else if (puntosJugadores[1] > 21) {
             alert('El jugador 1 gana');
         }
-    }, 50);
+    }, 100);
 }
